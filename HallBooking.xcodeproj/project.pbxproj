@@ -7,21 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1374D7217A641A0026355B /* DataCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1374D6217A641A0026355B /* DataCollectionViewCell.swift */; };
+		1E1374DA217A7FAD0026355B /* HallEmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1374D8217A7FAD0026355B /* HallEmployeeCell.swift */; };
+		1E1374DE217B66650026355B /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1374DD217B66650026355B /* PendingViewController.swift */; };
+		1E1374E0217B689C0026355B /* pendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1374DF217B689C0026355B /* pendingCell.swift */; };
+		1E18ADF0217CB776004F14EF /* PendingHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E18ADEF217CB776004F14EF /* PendingHall.swift */; };
 		1E42DBF3216A4A6400178C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DBF2216A4A6400178C01 /* AppDelegate.swift */; };
-		1E42DBF5216A4A6400178C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DBF4216A4A6400178C01 /* ViewController.swift */; };
+		1E42DBF5216A4A6400178C01 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DBF4216A4A6400178C01 /* LoginViewController.swift */; };
 		1E42DBF8216A4A6400178C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E42DBF6216A4A6400178C01 /* Main.storyboard */; };
 		1E42DBFA216A4A6600178C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E42DBF9216A4A6600178C01 /* Assets.xcassets */; };
 		1E42DBFD216A4A6600178C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E42DBFB216A4A6600178C01 /* LaunchScreen.storyboard */; };
+		1E42DC0A216D091300178C01 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC09216D091300178C01 /* RegisterViewController.swift */; };
+		1E42DC0C216D092B00178C01 /* HallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC0B216D092B00178C01 /* HallViewController.swift */; };
+		1E42DC0E216D094200178C01 /* HallDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC0D216D094200178C01 /* HallDetailViewController.swift */; };
+		1E42DC10216D097800178C01 /* AppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC0F216D097800178C01 /* AppearanceViewController.swift */; };
+		1E42DC12216D098C00178C01 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC11216D098C00178C01 /* ReservationViewController.swift */; };
+		1E42DC16216D09D800178C01 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC15216D09D800178C01 /* PaymentViewController.swift */; };
+		1E42DC18216D28A200178C01 /* EmpoyeeHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC17216D28A200178C01 /* EmpoyeeHallViewController.swift */; };
+		1E42DC1B216D28C800178C01 /* DetailEmpHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC1A216D28C800178C01 /* DetailEmpHallViewController.swift */; };
+		1E42DC1D216D28D300178C01 /* AddHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC1C216D28D300178C01 /* AddHallViewController.swift */; };
+		1E42DC1F216D291000178C01 /* AddminReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC1E216D291000178C01 /* AddminReservationViewController.swift */; };
+		1E42DC22216E215000178C01 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC21216E215000178C01 /* API.swift */; };
+		1E42DC25216FC60C00178C01 /* HallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC24216FC60C00178C01 /* HallTableViewCell.swift */; };
+		1E42DC272173380200178C01 /* Hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC262173380200178C01 /* Hall.swift */; };
+		1E42DC292175D1FB00178C01 /* CCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E42DC282175D1FB00178C01 /* CCheckbox.swift */; };
+		1E5308E62180839D00E20138 /* UserDeatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5308E52180839D00E20138 /* UserDeatilViewController.swift */; };
+		1E6B229F21887E8A0036E4A0 /* PendingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B229E21887E8A0036E4A0 /* PendingDetailViewController.swift */; };
+		1E6CB2F52185FCB600CB3127 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6CB2F42185FCB600CB3127 /* ProfileViewController.swift */; };
+		1EA2E883217DC86D0058F0B9 /* DataFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2E882217DC86D0058F0B9 /* DataFormater.swift */; };
+		1EA2E885217DEABD0058F0B9 /* DeatailPendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2E884217DEABD0058F0B9 /* DeatailPendCell.swift */; };
+		1EA2E887217F20C40058F0B9 /* EmpHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2E886217F20C40058F0B9 /* EmpHall.swift */; };
+		1EA2E889217F3BF80058F0B9 /* ReservationHallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2E888217F3BF80058F0B9 /* ReservationHallModel.swift */; };
+		1EA2E88B217F4EE20058F0B9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2E88A217F4EE20058F0B9 /* UserModel.swift */; };
+		1EC602232181BF95002EEE3B /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC602222181BF95002EEE3B /* HistoryDetailViewController.swift */; };
+		1EC602252181C11B002EEE3B /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC602242181C11B002EEE3B /* HistoryTableViewCell.swift */; };
+		1EC6022A2181DDB5002EEE3B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC602292181DDB5002EEE3B /* Helper.swift */; };
+		1EC6022E2181F48B002EEE3B /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC6022D2181F48B002EEE3B /* History.swift */; };
+		F3B0A9F4B3CDB1737199A7E5 /* Pods_HallBooking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC937CA5AF9E9DEB4501B52D /* Pods_HallBooking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19CB7E2090F9B891A9333326 /* Pods-HallBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HallBooking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HallBooking/Pods-HallBooking.debug.xcconfig"; sourceTree = "<group>"; };
+		1E1374D6217A641A0026355B /* DataCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E1374D8217A7FAD0026355B /* HallEmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallEmployeeCell.swift; sourceTree = "<group>"; };
+		1E1374DD217B66650026355B /* PendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingViewController.swift; sourceTree = "<group>"; };
+		1E1374DF217B689C0026355B /* pendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pendingCell.swift; sourceTree = "<group>"; };
+		1E18ADEF217CB776004F14EF /* PendingHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingHall.swift; sourceTree = "<group>"; };
 		1E42DBEF216A4A6400178C01 /* HallBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E42DBF2216A4A6400178C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E42DBF4216A4A6400178C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E42DBF4216A4A6400178C01 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1E42DBF7216A4A6400178C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E42DBF9216A4A6600178C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E42DBFC216A4A6600178C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E42DBFE216A4A6600178C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E42DC09216D091300178C01 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1E42DC0B216D092B00178C01 /* HallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallViewController.swift; sourceTree = "<group>"; };
+		1E42DC0D216D094200178C01 /* HallDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallDetailViewController.swift; sourceTree = "<group>"; };
+		1E42DC0F216D097800178C01 /* AppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceViewController.swift; sourceTree = "<group>"; };
+		1E42DC11216D098C00178C01 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		1E42DC15216D09D800178C01 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		1E42DC17216D28A200178C01 /* EmpoyeeHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpoyeeHallViewController.swift; sourceTree = "<group>"; };
+		1E42DC1A216D28C800178C01 /* DetailEmpHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEmpHallViewController.swift; sourceTree = "<group>"; };
+		1E42DC1C216D28D300178C01 /* AddHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHallViewController.swift; sourceTree = "<group>"; };
+		1E42DC1E216D291000178C01 /* AddminReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddminReservationViewController.swift; sourceTree = "<group>"; };
+		1E42DC21216E215000178C01 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1E42DC24216FC60C00178C01 /* HallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallTableViewCell.swift; sourceTree = "<group>"; };
+		1E42DC262173380200178C01 /* Hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hall.swift; sourceTree = "<group>"; };
+		1E42DC282175D1FB00178C01 /* CCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCheckbox.swift; sourceTree = "<group>"; };
+		1E5308E52180839D00E20138 /* UserDeatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDeatilViewController.swift; sourceTree = "<group>"; };
+		1E6B229E21887E8A0036E4A0 /* PendingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingDetailViewController.swift; sourceTree = "<group>"; };
+		1E6CB2F42185FCB600CB3127 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1EA0ED78218F722C009A9EF5 /* HallBooking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HallBooking.entitlements; sourceTree = "<group>"; };
+		1EA2E882217DC86D0058F0B9 /* DataFormater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormater.swift; sourceTree = "<group>"; };
+		1EA2E884217DEABD0058F0B9 /* DeatailPendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeatailPendCell.swift; sourceTree = "<group>"; };
+		1EA2E886217F20C40058F0B9 /* EmpHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpHall.swift; sourceTree = "<group>"; };
+		1EA2E888217F3BF80058F0B9 /* ReservationHallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationHallModel.swift; sourceTree = "<group>"; };
+		1EA2E88A217F4EE20058F0B9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1EC602222181BF95002EEE3B /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
+		1EC602242181C11B002EEE3B /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		1EC602292181DDB5002EEE3B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		1EC6022D2181F48B002EEE3B /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		78F320D7B12D39C90FE7BA09 /* Pods-HallBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HallBooking.release.xcconfig"; path = "Pods/Target Support Files/Pods-HallBooking/Pods-HallBooking.release.xcconfig"; sourceTree = "<group>"; };
+		CC937CA5AF9E9DEB4501B52D /* Pods_HallBooking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HallBooking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +96,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B0A9F4B3CDB1737199A7E5 /* Pods_HallBooking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02EFDA537EAB5F7DF4FCF5B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC937CA5AF9E9DEB4501B52D /* Pods_HallBooking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E1374DC217A7FB60026355B /* EmployeeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E1374D8217A7FAD0026355B /* HallEmployeeCell.swift */,
+				1E1374DF217B689C0026355B /* pendingCell.swift */,
+				1EA2E884217DEABD0058F0B9 /* DeatailPendCell.swift */,
+			);
+			path = EmployeeCell;
+			sourceTree = "<group>";
+		};
+		1E1374E1217B68B20026355B /* UserCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E42DC24216FC60C00178C01 /* HallTableViewCell.swift */,
+				1E1374D6217A641A0026355B /* DataCollectionViewCell.swift */,
+				1EC602242181C11B002EEE3B /* HistoryTableViewCell.swift */,
+			);
+			path = UserCell;
+			sourceTree = "<group>";
+		};
 		1E42DBE6216A4A6400178C01 = {
 			isa = PBXGroup;
 			children = (
 				1E42DBF1216A4A6400178C01 /* HallBooking */,
 				1E42DBF0216A4A6400178C01 /* Products */,
+				96E559015E67F216A66F9C0C /* Pods */,
+				02EFDA537EAB5F7DF4FCF5B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +152,107 @@
 		1E42DBF1216A4A6400178C01 /* HallBooking */ = {
 			isa = PBXGroup;
 			children = (
-				1E42DBF2216A4A6400178C01 /* AppDelegate.swift */,
-				1E42DBF4216A4A6400178C01 /* ViewController.swift */,
-				1E42DBF6216A4A6400178C01 /* Main.storyboard */,
-				1E42DBF9216A4A6600178C01 /* Assets.xcassets */,
-				1E42DBFB216A4A6600178C01 /* LaunchScreen.storyboard */,
-				1E42DBFE216A4A6600178C01 /* Info.plist */,
+				1EA0ED78218F722C009A9EF5 /* HallBooking.entitlements */,
+				1E42DC23216FC5D000178C01 /* Custome Cell */,
+				1E42DC20216E211300178C01 /* API */,
+				1EC602262181DCE4002EEE3B /* Helper */,
+				1E42DC08216D08AF00178C01 /* Model */,
+				1E42DC04216D086400178C01 /* View */,
+				1E42DC05216D087700178C01 /* Controller */,
+				1E42DC06216D088900178C01 /* Supporting Files */,
 			);
 			path = HallBooking;
+			sourceTree = "<group>";
+		};
+		1E42DC04216D086400178C01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E42DBFB216A4A6600178C01 /* LaunchScreen.storyboard */,
+				1E42DBF6216A4A6400178C01 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E42DC05216D087700178C01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E42DBF2216A4A6400178C01 /* AppDelegate.swift */,
+				1E42DBF4216A4A6400178C01 /* LoginViewController.swift */,
+				1E42DC09216D091300178C01 /* RegisterViewController.swift */,
+				1E42DC0B216D092B00178C01 /* HallViewController.swift */,
+				1E42DC0D216D094200178C01 /* HallDetailViewController.swift */,
+				1E42DC11216D098C00178C01 /* ReservationViewController.swift */,
+				1E42DC0F216D097800178C01 /* AppearanceViewController.swift */,
+				1EC602222181BF95002EEE3B /* HistoryDetailViewController.swift */,
+				1E6CB2F42185FCB600CB3127 /* ProfileViewController.swift */,
+				1E42DC15216D09D800178C01 /* PaymentViewController.swift */,
+				1E42DC17216D28A200178C01 /* EmpoyeeHallViewController.swift */,
+				1E1374DD217B66650026355B /* PendingViewController.swift */,
+				1E6B229E21887E8A0036E4A0 /* PendingDetailViewController.swift */,
+				1E42DC1A216D28C800178C01 /* DetailEmpHallViewController.swift */,
+				1E5308E52180839D00E20138 /* UserDeatilViewController.swift */,
+				1E42DC1C216D28D300178C01 /* AddHallViewController.swift */,
+				1E42DC1E216D291000178C01 /* AddminReservationViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1E42DC06216D088900178C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E42DC282175D1FB00178C01 /* CCheckbox.swift */,
+				1E42DBF9216A4A6600178C01 /* Assets.xcassets */,
+				1E42DBFE216A4A6600178C01 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E42DC08216D08AF00178C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E42DC262173380200178C01 /* Hall.swift */,
+				1EA2E886217F20C40058F0B9 /* EmpHall.swift */,
+				1EA2E888217F3BF80058F0B9 /* ReservationHallModel.swift */,
+				1E18ADEF217CB776004F14EF /* PendingHall.swift */,
+				1EA2E88A217F4EE20058F0B9 /* UserModel.swift */,
+				1EC6022D2181F48B002EEE3B /* History.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E42DC20216E211300178C01 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1E42DC21216E215000178C01 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1E42DC23216FC5D000178C01 /* Custome Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1E1374E1217B68B20026355B /* UserCell */,
+				1E1374DC217A7FB60026355B /* EmployeeCell */,
+			);
+			path = "Custome Cell";
+			sourceTree = "<group>";
+		};
+		1EC602262181DCE4002EEE3B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1EA2E882217DC86D0058F0B9 /* DataFormater.swift */,
+				1EC602292181DDB5002EEE3B /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		96E559015E67F216A66F9C0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19CB7E2090F9B891A9333326 /* Pods-HallBooking.debug.xcconfig */,
+				78F320D7B12D39C90FE7BA09 /* Pods-HallBooking.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E42DC01216A4A6600178C01 /* Build configuration list for PBXNativeTarget "HallBooking" */;
 			buildPhases = (
+				40D9417F0A0C226034AAA325 /* [CP] Check Pods Manifest.lock */,
 				1E42DBEB216A4A6400178C01 /* Sources */,
 				1E42DBEC216A4A6400178C01 /* Frameworks */,
 				1E42DBED216A4A6400178C01 /* Resources */,
+				728F0BE90BCC409ACAE2D1D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +289,11 @@
 				TargetAttributes = {
 					1E42DBEE216A4A6400178C01 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,13 +328,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40D9417F0A0C226034AAA325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HallBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728F0BE90BCC409ACAE2D1D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HallBooking/Pods-HallBooking-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HallBooking/Pods-HallBooking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E42DBEB216A4A6400178C01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E42DBF5216A4A6400178C01 /* ViewController.swift in Sources */,
+				1E42DC0A216D091300178C01 /* RegisterViewController.swift in Sources */,
+				1E1374DE217B66650026355B /* PendingViewController.swift in Sources */,
+				1E42DBF5216A4A6400178C01 /* LoginViewController.swift in Sources */,
 				1E42DBF3216A4A6400178C01 /* AppDelegate.swift in Sources */,
+				1E1374DA217A7FAD0026355B /* HallEmployeeCell.swift in Sources */,
+				1E1374E0217B689C0026355B /* pendingCell.swift in Sources */,
+				1E6CB2F52185FCB600CB3127 /* ProfileViewController.swift in Sources */,
+				1E42DC1D216D28D300178C01 /* AddHallViewController.swift in Sources */,
+				1EC602252181C11B002EEE3B /* HistoryTableViewCell.swift in Sources */,
+				1EC6022E2181F48B002EEE3B /* History.swift in Sources */,
+				1E42DC292175D1FB00178C01 /* CCheckbox.swift in Sources */,
+				1E42DC1B216D28C800178C01 /* DetailEmpHallViewController.swift in Sources */,
+				1EA2E889217F3BF80058F0B9 /* ReservationHallModel.swift in Sources */,
+				1EA2E883217DC86D0058F0B9 /* DataFormater.swift in Sources */,
+				1E42DC16216D09D800178C01 /* PaymentViewController.swift in Sources */,
+				1EC602232181BF95002EEE3B /* HistoryDetailViewController.swift in Sources */,
+				1E42DC25216FC60C00178C01 /* HallTableViewCell.swift in Sources */,
+				1E42DC0C216D092B00178C01 /* HallViewController.swift in Sources */,
+				1E42DC10216D097800178C01 /* AppearanceViewController.swift in Sources */,
+				1EC6022A2181DDB5002EEE3B /* Helper.swift in Sources */,
+				1E42DC22216E215000178C01 /* API.swift in Sources */,
+				1E42DC272173380200178C01 /* Hall.swift in Sources */,
+				1E42DC12216D098C00178C01 /* ReservationViewController.swift in Sources */,
+				1EA2E88B217F4EE20058F0B9 /* UserModel.swift in Sources */,
+				1E42DC0E216D094200178C01 /* HallDetailViewController.swift in Sources */,
+				1E42DC1F216D291000178C01 /* AddminReservationViewController.swift in Sources */,
+				1EA2E887217F20C40058F0B9 /* EmpHall.swift in Sources */,
+				1E42DC18216D28A200178C01 /* EmpoyeeHallViewController.swift in Sources */,
+				1E1374D7217A641A0026355B /* DataCollectionViewCell.swift in Sources */,
+				1EA2E885217DEABD0058F0B9 /* DeatailPendCell.swift in Sources */,
+				1E5308E62180839D00E20138 /* UserDeatilViewController.swift in Sources */,
+				1E6B229F21887E8A0036E4A0 /* PendingDetailViewController.swift in Sources */,
+				1E18ADF0217CB776004F14EF /* PendingHall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +554,17 @@
 		};
 		1E42DC02216A4A6600178C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CB7E2090F9B891A9333326 /* Pods-HallBooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HallBooking/HallBooking.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HallBooking/Info.plist;
+				DEVELOPMENT_TEAM = 9H3CW2HMW5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1STRIPE_ENABLE_APPLEPAY",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HallBooking/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +578,17 @@
 		};
 		1E42DC03216A4A6600178C01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F320D7B12D39C90FE7BA09 /* Pods-HallBooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HallBooking/HallBooking.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HallBooking/Info.plist;
+				DEVELOPMENT_TEAM = 9H3CW2HMW5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1STRIPE_ENABLE_APPLEPAY",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HallBooking/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
